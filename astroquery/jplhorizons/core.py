@@ -130,7 +130,9 @@ class HorizonsClass(BaseQuery):
             ...                         'stop':'2017-02-01',
             ...                         'step':'1d'})
             >>> print(eros)  # doctest: +SKIP
-            JPLHorizons instance "433"; location=568, epochs={'start': '2017-01-01', 'step': '1d', 'stop': '2017-02-01'}, id_type=smallbody
+            JPLHorizons instance "433"; location=568,
+            epochs={'start': '2017-01-01', 'step': '1d', 'stop': '2017-02-01'},
+            id_type=smallbody
         """
         return ('JPLHorizons instance \"{:s}\"; location={:s}, '
                 'epochs={:s}, id_type={:s}').format(
